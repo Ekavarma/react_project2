@@ -18,10 +18,11 @@ import AdminLogin from "./pages/AdminLogin";
 import UserLogin from "./pages/UserLogin";
 import UserSignup from "./pages/Usersignup";
 import LoginPage from "./components/LoginPage";
-import AuthPage from "./components/page";
+// import AuthPage from "./components/page";
 import Navbar from "./components/Navbar"; 
 import Footer from "./components/Footer";
 import "./styles/global.css";
+import AuthPage from "./components/page";
 
 
 
