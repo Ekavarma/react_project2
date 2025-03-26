@@ -1,0 +1,88 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #D4AF37 ;
+}
+
+/* Logo positioned to the far left */
+.logo {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a, .logout-btn {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover, .logout-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Logout button */
+.logout-btn {
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #343a40;
+  }
+  
+  .nav a, .nav button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .nav a:hover, .nav button:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .nav div {
+    display: flex;
+    gap: 15px;
+  }
+  .nav .logo{
+    margin-right:700px;
+    padding-left:20px;
+  }
+  
+  button {
+    border: none;
+    background-color: red;
+    cursor: pointer;
+  } */
+  

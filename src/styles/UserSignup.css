@@ -1,0 +1,63 @@
+/* User Signup Page Styles */
+.user-signup-container {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 80px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form Styling */
+  .user-signup-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Input Fields */
+  .user-signup-container input {
+    width: 80%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    text-align: center;
+  }
+  
+
+  /* Buttons */
+  .user-signup-container button {
+    width: 85%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-signup-container button:hover {
+    background-color: #218838;
+  }
+  
+  /* Labels */
+  .user-signup-container label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
